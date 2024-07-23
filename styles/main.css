@@ -83,3 +83,175 @@ body {
     display: block;
     width: 30px;
 }
+
+.nav_close{
+    display: var(--show, none);
+}
+
+/*About*/
+
+.about{
+    text-align: center; 
+}
+
+.subtitle{
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.about_paragraph{
+    line-height: 1.7;
+}
+
+.about_main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about_icons{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about_icon{
+    width: 40px;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #1D293F;
+}
+
+.footer_copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer_copyright{
+    font-weight: 300;
+}
+
+.footer_icons{
+    margin-bottom: 10px;
+}
+
+.footer_img{
+    width: 30px;
+}
+
+@media (max-width:800px){
+    .nav_menu{
+        display: block;
+    }
+
+    .nav_link--menu{
+        position: fixed;
+        background-color: gray;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 100;
+        opacity: 0;
+        pointer-events: none;
+        transition: .7s opacity;
+    }
+
+    .nav_link--show{
+        --show: block;
+        opacity:1 ;
+        pointer-events: unset;
+    }
+
+    .nav_close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hero_title{
+        font-size: 2.5rem;
+    }
+
+
+    .about_main{
+        gap: 2em;
+    }
+
+    .about_icons:last-of-type{
+        grid-column: 1/-1;
+    }
+
+    .footer_container{
+        flex-wrap: wrap;
+    }
+
+    .nav--footer{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .nav_link--footer{
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+}
+
+@media (max-width:600px){
+    .hero_title{
+        font-size: 2rem;
+    }
+
+    .hero_paragraph{
+        font-size: 1rem;
+    }
+
+    .subtitle{
+        font-size: 1.8rem;
+    }
+
+    .footer_title{
+        justify-self: start;
+        margin-bottom: 15px;
+    }
+
+    .nav--footer{
+        padding-bottom: 60px;
+    }
+
+    .nav_link--footer{
+        justify-content: space-between;
+    }
+
+
+    .footer_submit{
+        margin-right: auto;
+        margin-left: 0;
+        
+
+        /* 
+        margin:0;
+        width: 100%;
+        */
+    }
+}
