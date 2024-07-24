@@ -156,6 +156,10 @@ body {
         display: block;
     }
 
+    .nav_title{
+        text-align: center;
+    }
+
     .nav_link--menu{
         position: fixed;
         background-color: gray;
