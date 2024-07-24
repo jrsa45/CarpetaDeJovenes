@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const pdfFiles = [
-        { name: 'Descargar Carpeta Completa', url: '/archives/zip/' },
         { name: 'N1 Cuerpo de Jóvenes y N2 La Glorio es de El', url: '/archives/pdf/Alabanzas 1 y 2.pdf' },
         { name: 'N3 Vengo a Ti y N4 Cristo es la medicina ', url: '/archives/pdf/Alabanzas 3 y 4pdf' },
         { name: 'N5 Te mereces toda Gloria y N6 Algunos Cantan ', url: '/archives/pdf/Alabanzas 5 y 6.pdf' },
