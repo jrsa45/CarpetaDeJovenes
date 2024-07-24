@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descargas</title>
     <link rel="stylesheet" href="/styles/descargar.css">
+    <link rel="stylesheet" href="/styles/Normalize.css">
 </head>
 <body>
     <header class="hero">
@@ -21,12 +22,18 @@
                     <a href="/main.html" class="nav_links">Volver</a>
                 </li>
 
-                <img src="./archives/img/close.svg" alt="nav_close">
+                <img src="../archives/img/close.svg" class="nav_close">
             </ul>
+            <div class="nav_menu">
+                <img src="../archives/img/menu.svg" class="nav_img">
+            </div>
         </nav>
     </header>
     <main>
-
+        <div class="container about">
+            <h2 class="subtitle">Descargar PDF's</h1>
+            <ul class="pdfs" id="pdf-list"></ul>
+        </div>
     </main>
     <footer class="footer">
     <section class="footer_copy container">
@@ -40,4 +47,6 @@
     </section>
     </footer>
 </body>
+<script src="/js/descargar.js"></script>
+<script src="/js/menu.js"></script>
 </html>
