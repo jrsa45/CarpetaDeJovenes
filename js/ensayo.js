@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
 
     const mediaFiles = [
-        { id: 1, name: 'N1 Cuerpo de Jovenes de Jesucristo', image: './archives/img/N1cuerpodejovenes.jpg', audio: '../archives/aud/N1cuerpodejovenes.mp3' },
+        { id: 1, name: 'N1 Cuerpo de Jovenes de Jesucristo', image: '../archives/img/N1cuerpodejovenes.jpg', audio: '../archives/aud/N1cuerpodejovenes.mp3' },
         { id: 2, name: 'N2 La Gloria es de El', image: '../archives/img/N2lagloriaesdeel.jpg', audio: '../archives/aud/N2hayquecomprender.mp3' },
         { id: 3, name: 'N3 Vengo a ti con mi carga Señor', image: '../archives/img/N3vengoaticonmicargaseñor.jpg', audio: '../archives/aud/N3vengoaticonmicarga.mp3' },
         { id: 4, name: 'N4 Cristo es la medicina', image: '../archives/img/N4cristoeslamedicina.jpg', audio: '../archives/aud/N4cristoeslamedicina.mp3' },
