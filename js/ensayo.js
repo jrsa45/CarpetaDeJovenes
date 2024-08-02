@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 118, name: 'N118 Sin Fe', image: '../archives/img/N118sinfe.jpg', audio: '../archives/aud/N118sinfe.mp3' },
         { id: 119, name: 'N119 Queremos Bendiciones para ti', image: '../archives/img/N119queremosbendicionesparati.jpg', audio: '../archives/aud/' },
         { id: 120, name: 'N120 Pon tu Espiritu Santo', image: '../archives/img/N120pontuespiritusanto.jpg', audio: '../archives/aud/N120pontuespiritusanto.mp3' },
-        { id: 121, name: 'N121 El te hace libre', image: '../archives/img/N121eltehacelibre.jpg', audio: '../archives/aud/N121eltehacelibre' },
+        { id: 121, name: 'N121 El te hace libre', image: '../archives/img/N121eltehacelibre.jpg', audio: '../archives/aud/N121eltehacelibre.mp3' },
         { id: 122, name: 'N122 ', image: '../archives/img/', audio: '../archives/aud/' },
         { id: 123, name: 'N123 ', image: '../archives/img/', audio: '../archives/aud/' },
         { id: 124, name: 'N124 ', image: '../archives/img/', audio: '../archives/aud/' },
