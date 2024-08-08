@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 114, name: 'N114 Sueño', image: '../archives/img/N114sueño.jpg', audio: '../archives/aud/' },
         { id: 115, name: 'N115 Dios en la creación', image: '../archives/img/N115diosenlacreacion.jpg', audio: '../archives/aud/N115diosenlacreacion.mp3' },
         { id: 116, name: 'N116 La roca de los siglos', image: '../archives/img/N116larocadelossiglos.jpg', audio: '../archives/aud/N116larocadelossiglos.mp3' },
-        { id: 117, name: 'N117 ', image: '../archives/img/.jpg', audio: '../archives/aud/.mp3' },
+        { id: 117, name: 'N117 Como la golondrina', image: '../archives/img/N117comolagolondrina.jpg', audio: '../archives/aud/N117comolagolondrina.mp3' },
         { id: 118, name: 'N118 Sin Fe', image: '../archives/img/N118sinfe.jpg', audio: '../archives/aud/N118sinfe.mp3' },
         { id: 119, name: 'N119 Queremos Bendiciones para ti', image: '../archives/img/N119queremosbendicionesparati.jpg', audio: '../archives/aud/' },
         { id: 120, name: 'N120 Pon tu Espiritu Santo', image: '../archives/img/N120pontuespiritusanto.jpg', audio: '../archives/aud/N120pontuespiritusanto.mp3' },
