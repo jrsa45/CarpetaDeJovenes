@@ -132,9 +132,20 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 125, name: 'N125 Amado Jesucristo', image: '../archives/img/N125amadojesucristo.jpg', audio: '../archives/aud/N125amadojesucristo.mp3' },
         { id: 126, name: 'N126 Has pensado un momento', image: '../archives/img/N126haspensado.jpg', audio: '../archives/aud/N126haspensado.mp3' },
         { id: 127, name: 'N127 Frena tu marcha', image: '../archives/img/N127frenatumarcha.jpg', audio: '../archives/aud/N127frenatumarcha.mp3' },
-        { id: 128, name: 'N128 ', image: '../archives/img/', audio: '../archives/aud/' },
-        { id: 129, name: 'N129 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 128, name: 'N128 A veces pensamos hermanos', image: '../archives/img/N128avecespensamos.jpg', audio: '../archives/aud/N128avecespensamos.mp3' },
+        { id: 129, name: 'N129 ¿Cómo estará la Iglesia?', image: '../archives/img/N129comoestaralaiglesia.jpg', audio: '../archives/aud/N129comoestaralaiglesia.mp3' },
         { id: 130, name: 'N130 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 131, name: 'N131 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 132, name: 'N132 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 133, name: 'N133 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 134, name: 'N134 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 135, name: 'N135 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 136, name: 'N136 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 137, name: 'N137 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 138, name: 'N138 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 139, name: 'N139 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 140, name: 'N140 ', image: '../archives/img/', audio: '../archives/aud/' },
+
 
 
 
