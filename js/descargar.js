@@ -60,6 +60,11 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'N114 Sueño y N115 Dios en la creación', url: '../archives/pdf/Alabanzas 114 y 115.pdf' },
         { name: 'N116 La roca de los siglos y N117 Quien tocó mi manto', url: '../archives/pdf/Alabanzas 116 y 117.pdf' },
         { name: 'N118 Sin Fe es imposible y N119 Queremos bendiciones para Ti ', url: '../archives/pdf/Alabanzas 118 y 119.pdf' },
+        { name: 'N120 Pon tu Espíritu Santo y N121 El te hace libre ', url: '../archives/pdf/Alabanzas 120 y 121.pdf' },
+        { name: 'N122 Se que soy nada y N123 Oye su voz hoy ', url: '../archives/pdf/Alabanzas 122 y 123.pdf' },
+        { name: 'N124 Al fin Señor mio y N125 Amado Jesucristo ', url: '../archives/pdf/Alabanzas 124 y 125.pdf' },
+        { name: 'N126 Has pensado un momento y N127 Frena tu marcha ', url: '../archives/pdf/Alabanzas 126 y 127.pdf' },
+        { name: 'N128 A veces pensamos hermanos y N129 ¿Como estara la Iglesia? ', url: '../archives/pdf/Alabanzas 128 y 129.pdf' },
         { name: 'N000 ', url: '../archives/pdf/document3.pdf' },
 
         // Agrega más archivos PDF según sea necesario
