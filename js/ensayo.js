@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 128, name: 'N128 A veces pensamos hermanos', image: '../archives/img/N128avecespensamos.jpg', audio: '../archives/aud/N128avecespensamos.mp3' },
         { id: 129, name: 'N129 ¿Cómo estará la Iglesia?', image: '../archives/img/N129comoestaralaiglesia.jpg', audio: '../archives/aud/N129comoestaralaiglesia.mp3' },
         { id: 130, name: 'N130 Había un hombre', image: '../archives/img/N130habiaunhombrenecesitado.jpg', audio: '../archives/aud/' },
-        { id: 131, name: 'N131 Me alejaba de mi Hogar', image: '../archives/img/N131mealejaba.jpg', audio: '../archives/aud/' },
+        { id: 131, name: 'N131 Me alejaba de mi Hogar', image: '../archives/img/N131mealejaba.jpg', audio: '../archives/aud/N131mealejaba.mp3' },
         { id: 132, name: 'N132 Hoy llego hasta tu casa', image: '../archives/img/N132hoyllegohastatucasa.jpg', audio: '../archives/aud/' },
         { id: 133, name: 'N133 Se mueven las aguas', image: '../archives/img/N133semuevenlasaguas.jpg', audio: '../archives/aud/' },
         { id: 134, name: 'N134 ', image: '../archives/img/', audio: '../archives/aud/' },
