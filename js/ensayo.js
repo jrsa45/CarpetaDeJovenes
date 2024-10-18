@@ -147,9 +147,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 140, name: 'N140 ', image: '../archives/img/', audio: '../archives/aud/' },
 
 
-
-
-        // Agrega más archivos multimedia según sea necesario
     ];
 
     // Construir el índice y mostrar archivos multimedia al cargar la página
