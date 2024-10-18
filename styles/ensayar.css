@@ -34,7 +34,7 @@ body {
 }
 
 .sidebar {
-    background-color: #001A49; /* Azul claro */
+    background-color: #001A49; 
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -44,8 +44,8 @@ body {
 }
 
 #index-list {
-    max-height: 70vh; /* Altura máxima del índice con barra de desplazamiento */
-    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando es necesario */
+    max-height: 70vh; 
+    overflow-y: auto; 
 }
 
 .sidebar h2 {
@@ -68,11 +68,11 @@ body {
 }
 
 .text-primary {
-    color: #007bff; /* Azul primario de Bootstrap */
+    color: #007bff; 
 }
 
 .bg-light {
-    background-color: #ffffff; /* Blanco */
+    background-color: #ffffff; 
 }
 
 .list-group-item {
@@ -81,7 +81,7 @@ body {
 }
 
 .list-group-item:hover {
-    background-color: #e5e5e5; /* Celeste claro */
+    background-color: #e5e5e5; 
 }
 
 .img-fluid {
