@@ -163,7 +163,7 @@ body {
     .nav_link--menu{
         position: fixed;
         background-color: gray;
-        top: 0;
+        top: 5%;
         left: 45%;
         height: 50%;
         width: 50%; 
