@@ -65,6 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'N124 Al fin Señor mio y N125 Amado Jesucristo ', url: '../archives/pdf/Alabanzas 124 y 125.pdf' },
         { name: 'N126 Has pensado un momento y N127 Frena tu marcha ', url: '../archives/pdf/Alabanzas 126 y 127.pdf' },
         { name: 'N128 A veces pensamos hermanos y N129 ¿Como estara la Iglesia? ', url: '../archives/pdf/Alabanzas 128 y 129.pdf' },
+        { name: 'N130 Había un hombre y N131 Me Alejaba', url: '../archives/pdf/Alabanzas 130 y 131.pdf' },
+        { name: 'N132 Hoy llego hasta tu casa y 133 Se mueven las aguas', url: '../archives/pdf/Alabanzas 132 y 133.pdf' },
+        { name: 'N134 ¿Por que temer? y 135 Glorioso encuentro', url: '../archives/pdf/Alabanzas 134 y 135.pdf' },
         { name: 'N000 ', url: '../archives/pdf/document3.pdf' },
 
         // Agrega más archivos PDF según sea necesario
