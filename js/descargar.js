@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'N130 Había un hombre y N131 Me Alejaba', url: '../archives/pdf/Alabanzas 130 y 131.pdf' },
         { name: 'N132 Hoy llego hasta tu casa y 133 Se mueven las aguas', url: '../archives/pdf/Alabanzas 132 y 133.pdf' },
         { name: 'N134 ¿Por que temer? y 135 Glorioso encuentro', url: '../archives/pdf/Alabanzas 134 y 135.pdf' },
+        { name: 'N136  No Temas y N137 Esta Aqui', url: '../archives/pdf/Alabanzas 136 y 137.pdf' },
         { name: 'N000 ', url: '../archives/pdf/document3.pdf' },
 
         // Agrega más archivos PDF según sea necesario
