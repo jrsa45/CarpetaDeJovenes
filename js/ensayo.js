@@ -143,8 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 136, name: 'N136 No Temas', image: '../archives/img/N136notemas.jpg', audio: '../archives/aud/' },
         { id: 137, name: 'N137 Esta aqui', image: '../archives/img/N137estaaqui.jpg', audio: '../archives/aud/' },
         { id: 138, name: 'N138 Medley Muchas Lagrimas', images: ['../archives/img/N138medleymuchaslagrimas.1.jpg', '../archives/img/N138medleymuchaslagrimas.2.jpg'], audio: '../archives/aud/' },
-        { id: 139, name: 'N139 ', image: '../archives/img/', audio: '../archives/aud/' },
-        { id: 140, name: 'N140 ', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 139, name: 'N139 Jesus hoy espera', image: '../archives/img/', audio: '../archives/aud/' },
+        { id: 140, name: 'N140 Dicen', image: '../archives/img/', audio: '../archives/aud/' },
 
 
     ];
