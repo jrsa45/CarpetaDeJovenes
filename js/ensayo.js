@@ -145,6 +145,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 138, name: 'N138 Medley Muchas Lagrimas', images: ['../archives/img/N138medleymuchaslagrimas.1.jpg', '../archives/img/N138medleymuchaslagrimas.2.jpg'], audio: '../archives/aud/N138medleymuchaslagrimas.mp3' },
         { id: 139, name: 'N139 Bello Ropaje', image: '../archives/img/N139.jpg', audio: '../archives/aud/' },
         { id: 140, name: 'N140 Dicen', image: '../archives/img/N140.jpg', audio: '../archives/aud/N140.mp3' },
+        { id: 141, name: 'N141 El Ciego Bartimeo', image: '../archives/img/N141.jpg', audio: '../archives/aud/N141.mp3' },
+        { id: 142, name: 'N142 Has Puesto tu mirada', image: '../archives/img/N142.jpg', audio: '../archives/aud/N142.mp3' },
 
 
     ];

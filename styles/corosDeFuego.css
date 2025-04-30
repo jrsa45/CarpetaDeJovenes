@@ -1,0 +1,91 @@
+/* Estilos básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    color: #4b4b4b;
+    font-size: 36px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #d4af37; /* Color dorado para el efecto de hover */
+  }
+  
+  #contenido-cancion {
+    text-align: center;
+  }
+  
+  #contenido-cancion h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  #contenido-cancion audio {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contenido-cancion p {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+    max-width: 800px; /* Limitar el ancho máximo en pantallas grandes */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Estilos para pantallas pequeñas (móviles) */
+  @media (max-width: 768px) {
+    #contenido-cancion p {
+      max-width: 100%; /* En móviles, el texto ocupa todo el ancho */
+      padding: 0 15px; /* Añadir algo de padding para evitar que el texto se quede pegado a los bordes */
+    }
+  }
+  
+  /* Estilos para pantallas más grandes (computadoras) */
+  @media (min-width: 769px) {
+    #contenido-cancion p {
+      max-width: 550px; /* Limitar el ancho del texto en pantallas más grandes */
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

@@ -70,7 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'N134 ¿Por que temer? y 135 Glorioso encuentro', url: '../archives/pdf/Alabanzas 134 y 135.pdf' },
         { name: 'N136  No Temas y N137 Esta Aqui', url: '../archives/pdf/Alabanzas 136 y 137.pdf' },
         { name: 'N138  No Temas', url: '../archives/pdf/Alabanzas 138.pdf' },
-        { name: 'N000 ', url: '../archives/pdf/document3.pdf' },
+        { name: 'N139 Bello Ropaje y N140 Dicen', url: '../archives/pdf/Alabanzas 139 y 140.pdf' },
+        { name: 'N141 El ciego Bartimeo y N142 Has puesto tu mirada', url: '../archives/pdf/Alabanzas 141 y 142.pdf'},
 
         // Agrega más archivos PDF según sea necesario
     ];
