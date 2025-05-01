@@ -1,91 +1,155 @@
-/* Estilos básicos */
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  overflow-x: hidden; /* Evitar scroll horizontal */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto; /* Asegura que la barra lateral tenga scroll si es necesario */
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #444;
+  text-align: center;
+}
+
+#indice {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 250px; /* Limita la altura del índice para que se muestre solo una parte */
+  overflow-y: auto; /* Agrega scroll vertical si el contenido es largo */
+}
+
+#indice li {
+  background-color: #d4af37;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+#indice li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#indice li:hover {
+  background-color: #b9962f;
+}
+
+.nav_links {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ccc;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.nav_links:hover {
+  background-color: #999;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 30px;
+  margin-left: 250px; /* Deja espacio para la barra lateral */
+  overflow-y: auto; /* Permite hacer scroll si el contenido es largo */
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contenido-cancion {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#contenido-cancion h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+#contenido-cancion audio {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px; /* Limita el tamaño del reproductor */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contenido-cancion p {
+  font-size: 20px;
+  color: #555;
+  margin-top: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  padding: 0 15px; /* Asegura que el texto no toque los bordes */
+}
+
+/* Ajustes de tamaño en dispositivos móviles */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
   }
-  
-  .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  header h1 {
-    color: #4b4b4b;
-    font-size: 36px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin: 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #d4af37; /* Color dorado para el efecto de hover */
-  }
-  
-  #contenido-cancion {
-    text-align: center;
-  }
-  
-  #contenido-cancion h2 {
-    font-size: 28px;
-    color: #333;
-  }
-  
-  #contenido-cancion audio {
-    margin-top: 20px;
+
+  .sidebar {
     width: 100%;
-    max-width: 600px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    position: relative; /* No es necesario que esté sticky en móviles */
+    height: auto; /* La barra lateral debe adaptarse al contenido */
   }
-  
+
+  .main-content {
+    padding: 20px;
+    margin-left: 0; /* No necesitamos espacio para la barra lateral en móvil */
+  }
+
+  #contenido-cancion audio {
+    width: 100%;
+    max-width: 100%;
+  }
+
   #contenido-cancion p {
-    font-size: 20px;
-    color: #555;
-    margin-top: 20px;
-    max-width: 800px; /* Limitar el ancho máximo en pantallas grandes */
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 15px;
   }
-  
-  /* Estilos para pantallas pequeñas (móviles) */
-  @media (max-width: 768px) {
-    #contenido-cancion p {
-      max-width: 100%; /* En móviles, el texto ocupa todo el ancho */
-      padding: 0 15px; /* Añadir algo de padding para evitar que el texto se quede pegado a los bordes */
-    }
-  }
-  
-  /* Estilos para pantallas más grandes (computadoras) */
-  @media (min-width: 769px) {
-    #contenido-cancion p {
-      max-width: 550px; /* Limitar el ancho del texto en pantallas más grandes */
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  
+}
