@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'N138  No Temas', url: '../archives/pdf/Alabanzas 138.pdf' },
         { name: 'N139 Bello Ropaje y N140 Dicen', url: '../archives/pdf/Alabanzas 139 y 140.pdf' },
         { name: 'N141 El ciego Bartimeo y N142 Has puesto tu mirada', url: '../archives/pdf/Alabanzas 141 y 142.pdf'},
+        { name: 'N143 Cuantos Creen y N144 Aunque solo lo dejaron', url: '../archives/pdf/Alabanzas 143 y 144.pdf'},
 
         // Agrega más archivos PDF según sea necesario
     ];

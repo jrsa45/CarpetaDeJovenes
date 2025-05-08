@@ -147,6 +147,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 140, name: 'N140 Dicen', image: '../archives/img/N140.jpg', audio: '../archives/aud/N140.mp3' },
         { id: 141, name: 'N141 El Ciego Bartimeo', image: '../archives/img/N141.jpg', audio: '../archives/aud/N141.mp3' },
         { id: 142, name: 'N142 Has Puesto tu mirada', image: '../archives/img/N142.jpg', audio: '../archives/aud/N142.mp3' },
+        { id: 143, name: 'N143 Cuántos Creen', image: '../archives/img/N143.jpg', audio: '../archives/aud/N143.mp3' },
+        { id: 144, name: 'N144 Aunque solo lo dejaron', image: '../archives/img/N144.jpg', audio: '../archives/aud/N144.mp3' },
 
 
     ];
