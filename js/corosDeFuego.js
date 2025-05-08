@@ -330,6 +330,42 @@ const canciones = [
         ],
         audio: "../archives/aud/s10.mp3"
       },
+      {
+        titulo: "Seguidilla 11",
+        letra: [
+          "1",
+          "Este avivamiento ///¿Quien lo apagará?/// Si el Señor lo manda ///Permanecerá///",
+          "Ni mi padre, ni mi madre lo han podido apagar, //Manda Fuego Santifícanos Señor//",
+          "//No vivo yo, Cristo vive en mí, para mí el morir es vivir, para mi el morir es vivir, para mi el morir es vivir, para mi el vivir es Cristo//",
+          "2",
+          "//Yo espero el son, yo espero el son, yo espero el son de la trompeta final//",
+          "//Yo se que Cristo pronto vendrá, y a su pueblo se llevará, y a su pueblo se llevará cuando suene la trompeta final//",
+          "3",
+          "//Oh Jerusalén que bonita eres, calles de oro, mar de Cristal//",
+          "//Por esas calles yo voy a caminar, calles de oro, mar de cristal//",
+          "4",
+          "//En el principio el Espíritu de Dios se movía sobre las aguas//",
+          "//Y ahora se está moviendo dentro de mi corazón//",
+          "5",
+          "//Yo tengo un barco que navega en altama, y Jesucristo es el capitán//",
+          "//Los marineros que navegan a su lado son aquellos que han lavado con su sangre el corazón//",
+          "//Ven a Jesús Él te quiere libertar, traele tu carga te la quiere llevar//",
+          "6",
+          "//Cristo es la peña de Horeb que está brotando, agua de vida saludable para Ti//",
+          "Ven a beberla que es mas dulce que la miel, refresca el alma, refresca todo tu ser, Cristo es la peña de Horeb que está brotando agua de vida saludable para ti",
+          "Cristo es el lirio del valle de las flores, Él es la rosa blanca y pura de sarón. Cristo es la vida y amor de los amores, el es la eterna fuente de la salvación.",
+          "7",
+          "//Esa zarza que en el monte no cesaba de arder//, Esa zarza era la Gloria, la presencia de mi Dios, //Esa zarza quiero que arda dentro de mi corazón//",
+          "8",
+          "//Fuego, fuego, fuego, fuego que no se apaga, Fuego, fuego, fuego, fuego celestial//",
+          "//Fuego que abraza el alma, fuego que santifica, fuego que purifica dentro de mi corazón//",
+          "9",
+          "//Gocémonos y alegrémmonos, démosle Gloria a Aquel que nos salvó//, Porque murió pero sé que Él vive, por los siglos de los siglos, Aleluya. //Él es el Alfa, Él es la Omega, es el Principio y es El Fin//",
+          "//Aleluya porque el Señor, nuestro Dios Todopoderoso Reina, para siempre Reina//"
+          
+        ],
+        audio: "../archives/aud/s11.mp3"
+      },
     // Agrega más canciones aquí
   ];
   
