@@ -44,7 +44,7 @@ body {
 }
 
 #indice li {
-  background-color: #d4af37;
+  background-color: #3b48f9;
   border-radius: 5px;
   text-align: center;
   transition: background-color 0.3s ease;
@@ -67,8 +67,8 @@ body {
   text-align: center;
   margin-top: 10px;
   padding: 10px;
-  background-color: #ccc;
-  color: #333;
+  background-color: #52c3f8;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -96,7 +96,9 @@ header h1 {
 
 #contenido-cancion {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 0 20px;
 }
 
 #contenido-cancion h2 {
@@ -107,7 +109,7 @@ header h1 {
 }
 
 #contenido-cancion audio {
-  margin-top: 20px;
+  margin: 20px;
   width: 100%;
   max-width: 600px; /* Limita el tamaño del reproductor */
   border-radius: 8px;
