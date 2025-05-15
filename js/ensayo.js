@@ -149,6 +149,13 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 142, name: 'N142 Has Puesto tu mirada', image: '../archives/img/N142.jpg', audio: '../archives/aud/N142.mp3' },
         { id: 143, name: 'N143 Cuántos Creen', image: '../archives/img/N143.jpg', audio: '../archives/aud/N143.mp3' },
         { id: 144, name: 'N144 Aunque solo lo dejaron', image: '../archives/img/N144.jpg', audio: '../archives/aud/N144.mp3' },
+        { id: 145, name: 'N145 Vive el Señor para siempre', image: '../archives/img/N145.jpg', audio: '../archives/aud/N145.mp3' },
+        { id: 146, name: 'N146 Pero tu Amor', image: '../archives/img/N146.jpg', audio: '../archives/aud/N146.mp3' },
+        { id: 147, name: 'N147 Vagando en soledad', image: '../archives/img/N147.jpg', audio: '../archives/aud/N147.mp3' },
+        { id: 148, name: 'N148 Si, no cuesta nada', image: '../archives/img/N148.jpg', audio: '../archives/aud/N148.mp3' },
+        { id: 149, name: 'N149 Salvado Fui', image: '../archives/img/N149.jpg', audio: '../archives/aud/N149.mp3' },
+        { id: 150, name: 'N150 Esa duda que invade', image: '../archives/img/N150.jpg', audio: '../archives/aud/N150.mp3' },
+
 
 
     ];

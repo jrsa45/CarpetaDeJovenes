@@ -73,6 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'N139 Bello Ropaje y N140 Dicen', url: '../archives/pdf/Alabanzas 139 y 140.pdf' },
         { name: 'N141 El ciego Bartimeo y N142 Has puesto tu mirada', url: '../archives/pdf/Alabanzas 141 y 142.pdf'},
         { name: 'N143 Cuantos Creen y N144 Aunque solo lo dejaron', url: '../archives/pdf/Alabanzas 143 y 144.pdf'},
+        { name: 'N145 Vive el Señor y N146 Pero tu Amor', url: '../archives/pdf/Alabanzas 145 y 146.pdf'},
+        { name: 'N147 Vagando en soledad y N148 Si no cuesta nada', url: '../archives/pdf/Alabanzas 147 y 148.pdf'},
+        { name: 'N149 Salvado Fui y N150 Esa Duda', url: '../archives/pdf/Alabanzas 149 y 150.pdf'},
+
 
         // Agrega más archivos PDF según sea necesario
     ];
