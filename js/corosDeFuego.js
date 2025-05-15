@@ -76,6 +76,131 @@ const canciones = [
         ],
         audio: "../archives/aud/re11.mp3"
       },
+      {
+        subtitulo: "12",
+        texto: ["//Jehová está en su templo, alabale al que vive// //Alábale, alábale, alábale al que Vive//",
+          "//Alabaré, alabaré, alabaré a mi Señor//",
+          "Juan vio el número de los redimidos y todos alababan al Señor, unos oraban, otros cantaban, y todos alababan al Señor.",
+          "//Alabaré, alabaré, alabaré a mi Señor//"
+        ],
+        audio: "../archives/aud/re12.mp3"
+      },
+      {
+        subtitulo: "13",
+        texto: ["//Jehová le dijo al profeta: “¿estos huesos vivirán?” El Profeta le respondió: “¡Tú lo sabes, mi Señor!” //",
+          "//Estos huesos vivirán, estos huesos vivirán, estos huesos vivirán, Tú lo sabes mi Señor//",
+          "//Jehová le dijo al Pastor: “¿Esta Iglesia vivirá?” El Pastor le respondió: “¡Tú lo sabes, mi Señor!” //",
+          "//Esta iglesia vivirá, esta iglesia vivirá, esta iglesia vivirá, Tú lo sabes mi Señor//"
+        ],
+        audio: "../archives/aud/re13.mp3"
+      },
+      {
+        subtitulo: "14",
+        texto: ["//A la luna yo no quiero ir, ni tampoco quiero ir al sol//",
+        "//Pero si quiero ir más allá del sol, más allá del sol, donde está Jesús//"
+        ],
+        audio: "../archives/aud/re14.mp3"
+      },
+      {
+        subtitulo: "15",
+        texto: ["///Caminando voy para Canaán/// Gloria a Dios, caminando voy para Canaán.",
+        "///Si usted no va, yo le invito a ir/// Gloria a Dios, caminando voy para Canaán.",
+        "///Al venir Jesús, yo me voy con Él/// Gloria a Dios, caminando voy para Canaán.",
+        "///Jesús está aquí, te quiere salvar/// Gloria a Dios, caminando voy para Canaán."
+        ],
+        audio: "../archives/aud/re14.mp3"
+      },
+      {
+        subtitulo: "16",
+        texto: ["//Dios tiene un ejército marchando por la tierra, sanidad en sus manos, libertad en sus cantos, el gozo del Señor reina en sus vidas y en este ejército, Yo tengo mi lugar//",
+        "Se oye el sonido del ejército… Se oye en sus pies marchando. Es el sonido del ejército del Señor que nunca será vencido."
+        ],
+        audio: "../archives/aud/re16.mp3"
+      },
+      {
+        subtitulo: "17",
+        texto: ["Aunque no soy de la infantería, caballería, artillería, aunque en avión no vaya volando, pero soldado soy.",
+        "//Soldado soy de Jesús// aunque en avión no vaya volando, pero soldado soy."
+        ],
+        audio: "../archives/aud/re17.mp3"
+      },
+      {
+        subtitulo: "18",
+        texto: ["///Un palacio tengo allá más lindo que el sol/// en el más allá",
+        "///Si Señor, Si Señor acuérdate de Mi/// en el más allá."
+        ],
+        audio: "../archives/aud/re18.mp3"
+      },
+      {
+        subtitulo: "19",
+        texto: ["//Yo sé que mi redentor me tiene que levantar//",
+        "//Del polvo de donde estoy ponerme en un buen lugar//",
+        "//no pierdas la Fe, Te tiene que levantar//",
+        "//Del polvo de donde estas ponerte en un buen lugar//"
+        ],
+        audio: "../archives/aud/re19.mp3"
+      },
+      {
+        subtitulo: "20",
+        texto: ["Yo tengo ///Gozo en mi alma/// y en mi ser, es como ///Río de agua viva/// en mi ser.",
+        "//Hemos orado y ha bajado el Poder de Dios// //Oh Gloria a Él//",
+        "Hemos orado y ha bajado el Poder de Dios.",
+        "//Yo siento como que la Gloria bajó, la Gloria bajó aquí//"
+        ],
+        audio: "../archives/aud/re20.mp3"
+      },
+      {
+        subtitulo: "21",
+        texto: ["//Señor únenos, Señor únenos, Señor únenos con Tu Poder//",
+        "//Manda fuego Señor, manda fuego Señor, manda fuego Pentecostés//",
+        "//Señor avívanos…//",
+        "//Señor bautízanos…//"
+        ],
+        audio: "../archives/aud/re21.mp3"
+      },
+      {
+        subtitulo: "22",
+        texto: ["//Los hijos de Sion se gozan en su rey, alaban su nombre con danza, con panderos y arpas, cantan alabanzas, cantan alabanzas a Él//",
+        "//Aleluya, Aleluya, Aleluya, Amén//"
+        ],
+        audio: "../archives/aud/re22.mp3"
+      },
+      {
+        subtitulo: "23",
+        texto: ["Conozco ///a un hombre de Poder/// ¡De Poder!Él me ayuda a vencer, me ayuda a triunfar, su nombre es Jesús, ¡Jesús!",
+        "//Es fuerte más que el viento, su gloria más que el mar, nunca termina su amor, en Él puedo yo confiar//"
+        ],
+        audio: "../archives/aud/re23.mp3"
+      },
+      {
+        subtitulo: "24",
+        texto: ["//Está bajando ya, está bajando ya, está bajando la Gloria de Jehová Si su pueblo empieza a orar y comienza a alabar, Bajará, bajará, bajará//",
+        ],
+        audio: "../archives/aud/re24.mp3"
+      },
+      {
+        subtitulo: "25",
+        texto: ["//Me llaman Aleluya, Aleluya soy//",
+          "//Me llaman Aleluya, Aleluya soy, mis pecados perdonados son, y ahora rumbo al cielo voy//",
+          "//El diablo está enojado y tiene razón//",
+          "//El diablo está enojado y tiene razón, fue arrojado de mi corazón y ahora rumbo al cielo voy//"
+        ],
+        audio: "../archives/aud/re25.mp3"
+      },
+      {
+        subtitulo: "26",
+        texto: ["//Pon un ángel aquí Señor, otro más allá, uno en la puerta y el otro en el altar//",
+        "//Jesús está en el medio, comienza a operar, Jesús está operando y satanás no puede entrar//"
+        ],
+        audio: "../archives/aud/re26.mp3"
+      },
+      {
+        subtitulo: "27",
+        texto: ["//Huye satanás, márchate de aquí, en el nombre de Jesús, nos vamos contra Ti//",
+        "//oh oh oh, Gritaba la gente, cayeron los muros de Jericó//"
+        ],
+        audio: "../archives/aud/re27.mp3"
+      },
     ]
   },
   {
